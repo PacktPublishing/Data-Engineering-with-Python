@@ -1,0 +1,43 @@
+POST http://localhost:9300/nifi-api/flowfile-queues/19e68f27-583a-3e89-e47d-dec00c8ff3a9/listing-requests
+get the  "id": "2551df79-0172-1000-e95c-ecf3998727f7",
+get results of the listing requests
+GET http://localhost:9300/nifi-api/flowfile-queues/19e68f27-583a-3e89-e47d-dec00c8ff3a9/listing-requests/2551df79-0172-1000-e95c-ecf3998727f7
+get the flowfile content
+http://localhost:9300/nifi-api/flowfile-queues/19e68f27-583a-3e89-e47d-dec00c8ff3a9/flowfiles/b26cc8db-de10-41dc-9967-20446a781a30/content
+
+
+
+CLEAR QUQUE
+drop request
+http://localhost:9300/nifi-api/flowfile-queues/19e68f27-583a-3e89-e47d-dec00c8ff3a9/drop-requests
+get status using id
+http://localhost:9300/nifi-api/flowfile-queues/19e68f27-583a-3e89-e47d-dec00c8ff3a9/drop-requests/255e8f76-0172-1000-6af1-e01a161eeb6f
+
+queue is now empty.
+
+
+API Docs: https://nifi.apache.org/docs/nifi-docs/rest-api/index.html
+
+Turn on registry..
+Install Rested
+http://localhost:9300/nifi-api/system-diagnostics
+
+Make an Error (red square then run this)
+http://localhost:9300/nifi-api/flow/bulletin-board
+
+http://localhost:9300/nifi-api/process-groups/9466c3ca-4c6d-3884-ac72-af4a27919fb0
+
+http://localhost:9300/nifi-api/processors/8b63e4d0-eff2-3093-f4ad-0f1581e56674
+
+http://localhost:9300/nifi-api/versions/process-groups/9466c3ca-4c6d-3884-ac72-af4a27919fb0
+
+
+Reporting Tasks
+http://localhost:9300/nifi-api/reporting-tasks/01721003-179f-195f-9cbe-27f0f068b38e
+
+COUNTERS
+http://localhost:9300/nifi-api/counters
+
+
+AIRFLOW API IS expiremental...If dont need to dont write about it.... Just metnion it
+https://airflow.apache.org/docs/stable/rest-api-ref.html

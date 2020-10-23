@@ -1,0 +1,23 @@
+-- Table: public.staging
+
+-- DROP TABLE public.staging;
+
+CREATE TABLE public.staging
+(
+    userid bigint NOT NULL,
+    name text COLLATE pg_catalog."default",
+    age integer,
+    street text COLLATE pg_catalog."default",
+    city text COLLATE pg_catalog."default",
+    state text COLLATE pg_catalog."default",
+    zip text COLLATE pg_catalog."default",
+    CONSTRAINT staging_pkey PRIMARY KEY (userid)
+
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.staging
+    OWNER to postgres;
