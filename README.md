@@ -47,10 +47,9 @@ With the following software and hardware list you can run all code files present
 
 ### Software and Hardware List
 
-| Chapter  | Software required                                                                    | OS required                        |
-| -------- | -------------------------------------------------------------------------------------| -----------------------------------|
-| 2 - 15   |   Python 3.x, Spark 3.x, Nifi 1.x, PostgreSQL 13.x,                                 	| Windows, Mac OS X, and Linux (Any) |
-|          |   Elasticsearch 7.x, Kibana 7.x, Apache Kafka 2.x                                    |                                    |
+| Chapter  | Software required                                                                                   | OS required                        |
+| -------- | ----------------------------------------------------------------------------------------------------| -----------------------------------|
+| 2 - 15   |   Python 3.x, Spark 3.x, Nifi 1.x, PostgreSQL 13.x, Elasticsearch 7.x, Kibana 7.x, Apache Kafka 2.x | Windows, Mac OS X, and Linux (Any) |
 
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781839214189_ColorImages.pdf).
