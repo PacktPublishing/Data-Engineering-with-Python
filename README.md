@@ -66,3 +66,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 With a Master's degree in Political Science and a background in Community, and Regional Planning, he combines rigorous social science theory and techniques to technology projects. He has Presented at the New Mexico Big Data and Analytics Summit and the ExperienceIT NM Conference. He has given talks on data to the New Mexico Big Data Working Group, Sandia National Labs, and the New Mexico Geographic Information Council.
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781839214189">https://packt.link/free-ebook/9781839214189 </a> </p>
